@@ -4,6 +4,7 @@ import java.util.Random;
 
 import ucb.util.CommandArgs;
 
+// testing
 /** The main class for the 2048 game.
  *  @author P. N. Hilfinger
  */
