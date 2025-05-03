@@ -127,6 +127,11 @@ public class ULLMap<K, V>  implements Map61B<K, V> {
         private Entry cur;
 
     }
+    public static void main(String[] args) {
+        ULLMap<Integer, Integer> map = new ULLMap<>();
+        map.put(1, 1);
+
+    }
 
     @Override
     public V remove(K key) {
@@ -142,5 +147,7 @@ public class ULLMap<K, V>  implements Map61B<K, V> {
     public Set<K> keySet() {
         throw new UnsupportedOperationException();
     }
+
+
 
 }
