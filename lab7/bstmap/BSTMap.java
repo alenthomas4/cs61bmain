@@ -90,6 +90,7 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V>{
         }
         //
         int cmp = key.compareTo(T.key);
+        // base case 1: two objects are the same
         if (cmp == 0) {
             return T.value;
         }
